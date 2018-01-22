@@ -1,0 +1,95 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:inherit;
+  font-weight:normal;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background: #fff;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  color: #000;
+
+  padding-top: 2.5rem;
+  position: relative;
+}
+
+.c-header {
+  width: 100%;
+  height: 2.5rem;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background: #fff;
+  box-shadow: rgba(0,0,0,0.1) 0 1px 0;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+  .c-header__logo {
+    height: 1.2rem;
+  }
+
+  .c-header__burger_menu,
+  .c-header__search {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-size: auto 1rem;
+  }
+
+  .c-header__burger_menu {
+    background-image: url('images/burger_menu.svg');
+  }
+  
+  .c-header__search {
+    background-image: url('images/search.svg');
+  }
+
+.c-banner {
+  width: 100%;
+  display: block;
+}
+
+.c-placeholder {
+  width: 100%;
+  height: 50vw;
+  background: #eee;
+}
+
+.c-navigation {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+}
+  .c-navigation__link {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #8B99AC;
+  }
+
+.c-wrapper {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+  .c-wrapper p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
